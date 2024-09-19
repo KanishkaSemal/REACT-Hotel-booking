@@ -1,6 +1,7 @@
 import React from "react";
 import homeCSS from './../Home/Home.module.css'
 
+
 function Home() {
   return (
     <div className={`${homeCSS.home} section`}>
@@ -8,6 +9,7 @@ function Home() {
         <div className="swiper-wrapper">
 
           <div className="box swiper-slide">
+          <img src="/images/home-img-1.jpg" alt=""/> 
             <div className="flex">
               <h3>Luxurious Rooms</h3>
               <a href="#availability" className="btn">Check Availability</a>
@@ -15,6 +17,7 @@ function Home() {
           </div>
 
           <div className="box swiper-slide">
+          <img src="/images/home-img-2.jpg" alt=""/> 
             <div className="flex">
               <h3>Foods and Drinks</h3>
               <a href="#reservation" className="btn">Make a Reservation</a>
@@ -22,6 +25,7 @@ function Home() {
           </div>
 
           <div className="box swiper-slide">
+          <img src="/images/home-img-3.jpg" alt=""/> 
             <div className="flex">
               <h3>Luxurious Halls</h3>
               <a href="#contact" className="btn">Contact Us</a>

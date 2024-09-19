@@ -5,12 +5,13 @@
 /* Home Component */
 .home {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
+  margin-top: 3.5rem;
 }
 
 /* Box Image Styling */
-.home .box img {
+.home .box  img {
   border-radius: .5rem;
   height: 60vh;
   width: 100%;
@@ -18,7 +19,7 @@
 }
 
 /* Flexbox Layout */
-.home .box .flex {
+.home .box  .flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -153,7 +154,12 @@ h3 {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+
+
+
+
+
+/* @media (max-width: 768px) {
   .box {
     min-width: 100%;
     margin: 10px 0;
@@ -174,4 +180,5 @@ h3 {
     height: 40px;
     padding: 1.5rem;
   }
-}
+} */
+

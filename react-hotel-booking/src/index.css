@@ -120,6 +120,23 @@ header {
   display: none; /* Initially hidden for larger screens */
 }
 
+.header .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  background-color: var(--sub-color);
+  padding: .5rem 2rem;
+  border-radius: .5rem;
+}
+
+.header .navbar a{
+  font-size: 1.5rem;
+  color: var(--main-color);
+  padding: 1rem 3rem;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: flex;
