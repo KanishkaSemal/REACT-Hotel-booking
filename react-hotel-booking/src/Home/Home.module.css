@@ -1,8 +1,4 @@
-/* Home.module.css */
 
-/* Global Section Styling */
-
-/* Home Component */
 .home {
   width: 100%;
   max-width: 1250px;
@@ -10,175 +6,39 @@
   margin-top: 3.5rem;
 }
 
-/* Box Image Styling */
-.home .box  img {
+img {
   border-radius: .5rem;
   height: 60vh;
   width: 100%;
   object-fit: cover;
 }
 
-/* Flexbox Layout */
-.home .box  .flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  margin-top: 1.5rem;
-}
-
-/* Box Heading */
-.home .box .flex h3 {
-  font-size: 2.5rem;
-  color: var(--sub-color);
-  text-transform: capitalize;
-  font-family: 'Merriweather', serif;
-}
-
-/* Swiper Button Styling */
-.swiper-button-prev {
-  left: 0;
-}
-
-.swiper-button-next {
-  right: 0;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-  padding: 3rem 2rem;
-  background-color: var(--white);
-  top: 40%;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  color: var(--main-color);
-  font-size: 2rem;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  opacity: 1;
-}
-
-/* Availability Section Styling */
-.availability form .flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.availability form .flex .box {
-  flex: 1 1 20rem;
-}
-
-.availability form .flex .box p {
-  font-size: 2rem;
-  color: var(--sub-color);
-}
-
-/* Input Styling for Availability Form */
-.availability form .flex .box .input {
-  width: 100%;
-  padding: 1rem 0;
-  font-size: 1.8rem;
-  background-color: var(--main-color);
-  color: var(--white);
-  border-bottom: var(--border);
-  margin: 1rem 0;
-}
-
-.availability form .flex .box input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1);
-}
-
-/* General Box Hover Effect */
-.box {
-  min-width: 300px;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
-  margin: 20px;
-  transition: transform 0.3s ease;
-}
-
-.box:hover {
-  transform: translateY(-10px);
-}
-
-/* Button Styles */
-.btn {
+.btn1 {
   display: inline-block;
-  padding: 10px 25px;
-  background-color: #3498db;
-  color: white;
-  text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 50px;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: var(--border);
+  font-size: 1.8rem;
+  color: var(--sub-color);
+  text-align: center;
+  text-transform: capitalize;
+  transition: .2s linear;
+  margin-top: 1rem;
+  background-color: var(--main-color);
+  margin-left: 920px; /* Adjust this value to move it slightly to the right */
 }
 
-.btn:hover {
-  background-color: #2980b9;
-}
 
 /* Heading Styling */
-h3 {
-  font-size: 1.8rem;
-  color: #333;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* Swiper Button Styling (Responsive) */
-.swiper-button-next,
-.swiper-button-prev {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
 
 
 
 
 
 
-/* @media (max-width: 768px) {
-  .box {
-    min-width: 100%;
-    margin: 10px 0;
-  }
 
-  .btn {
-    padding: 8px 20px;
-    font-size: 0.9rem;
-  }
 
-  h3 {
-    font-size: 1.5rem;
-  }
 
-  .swiper-button-next,
-  .swiper-button-prev {
-    width: 40px;
-    height: 40px;
-    padding: 1.5rem;
-  }
-} */
+
+
 
