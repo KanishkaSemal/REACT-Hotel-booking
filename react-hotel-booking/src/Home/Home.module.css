@@ -31,6 +31,27 @@ img {
 
 /* Heading Styling */
 
+.availability form .flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.availability form .flex .box p{
+  font-size: 2rem;
+  color: #fff;
+}
+
+.availability form .flex .box .input
+
+.availability form .flex .box .input{
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  background-color: var(--border);
+}
+
+
 
 
 
